@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pedido Pizzaria</h1>
+    <form method="get" action="teste.jsp">
+        <!--"get" mostra as informações na aba de pesquisa, "post" esconde as informações  -->
+
+    Nome:
+        <input type="text" name="nome">
+        <br><br>
+    Email: 
+        <input type="email" name="email"> 
+        <br><br>
+    Tamanho:
+        <input type="radio" name="tamanho" value="g"> Grande
+        <input type="radio" name="tamanho" value="m" checked> Media
+        <input type="radio" name="tamanho" value="p"> Pequena 
+        <br><br>
+    Sabor:
+        <select name="sabor">
+            <option> Calabresa </option>
+            <option> Portuguesa </option>
+            <option> Marguerita </option>
+            <option> Frango com catupiry </option>
+            <option> Muçarela </option>
+            <option> Napolitana </option>
+            <option> Quatro queijos </option>
+            <option> Atum com cebola </option>
+            <option> Milho </option>
+            <option> Baiana </option>
+            <option> Caipira </option>
+            <option> Brigadeiro </option>
+        </select>
+        <br><br>
+    Adicionais:
+        <input type="checkbox" name="borda" value="sim"> Borda rechada
+        <input type="checkbox" name="queijo" value="sim"> Queijo extra
+        <input type="checkbox" name="bacon" value="sim"> Bacon
+        <br><br>
+    Data da Entrega:
+        <input type="date" name="data entrega">
+        <br> <br>
+    Comentário: <br>
+        <Textarea name="mensagem" rows="15" cols="50"></Textarea>
+        <br><br>
+        
+        <input type="submit">
+
+
+
+
+    </form>
+</body>
+</html>
